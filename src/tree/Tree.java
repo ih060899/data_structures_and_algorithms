@@ -36,7 +36,8 @@ public class Tree {
                     break;
                 }
                 current = current.leftChild;
-            } else {
+            }
+            else {
                 if (current.rightChild == null) {
                     current.rightChild = node;
                     break;
